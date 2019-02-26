@@ -1,0 +1,140 @@
+body
+{
+    background-image: url(http://i.imgur.com/XjKfgHt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.container{
+    background-color: lavender;
+    background: transparent\9;  
+    background:rgba(255,255,255, 0.3);  
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);  
+    zoom: 1;  
+}
+.row{
+    margin: auto;
+}
+#header{
+    height: 350px;
+    border: solid;
+    background-image: url(headmain.png);
+    align-items: center;
+    background-size: cover;
+    justify-content: center;
+}
+#header1{
+    height: 350px;
+    border: solid;
+    background-image: url(headfam.png);
+    align-items: center;
+    background-size: cover;
+    justify-content: center;
+}
+#header2{
+    height: 350px;
+    border: solid;
+    background-image: url(headfriend.png);
+    align-items: center;
+    background-size: cover;
+    justify-content: center;
+}
+#row a {
+  display: block;
+  width: 60px;
+}
+#navbar {
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    border-top: 0;
+}
+#body{
+    border: solid;
+    border-color: black;
+    margin: 10px;
+    padding: 10px;
+}
+.col a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+    overflow: auto;
+}
+
+.col a:hover {
+  background-color: #111;
+  opacity: 0.8;
+}
+#To {
+    padding: 10px;
+    left: 0px;
+    text-align: left;
+}
+#by {
+    padding: 10px;
+    right: 0;
+    text-align: right;
+}
+#tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+#message{
+    font-family: monospace;
+    margin: 10px;
+    padding: 10px;
+}
+#tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+#head1{
+    text-align: center;
+    justify-content: center;
+}
+#head2{
+    text-align: center;
+    justify-content: center;
+}
+#me{
+    font-family: monospace;
+    font-size: 20px;
+}
+#fam{
+    font-family: monospace;
+    font-size: 20px;
+}
+#friend{
+    font-family: monospace;
+    font-size: 20px;
+}
+#toptitle{
+    font-family: monospace;
+    color: blueviolet;
+    font-size: 200px;
+}
+#toptitle2{
+    font-family: monospace;
+    color: blueviolet;
+    font-size: 200px;
+}
+#toptitle3{
+    font-family: monospace;
+    color: blueviolet;
+    font-size: 200px;
+}
